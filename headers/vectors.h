@@ -1,6 +1,6 @@
 typedef struct pt
 {
   double x, y, z;
-} point;
+} point3;
 
-typedef point Vec;
+typedef point3 vec3;
