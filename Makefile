@@ -4,7 +4,7 @@ HEADERS=headers/*.h
 OBJS=*.o
 
 tests: $(HEADERS) $(SRC)
-	rm unit/teste? || ls
+	make -C unit clean
 	make -C unit tester >/dev/null
 	unit/tester	
 

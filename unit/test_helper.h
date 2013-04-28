@@ -5,12 +5,6 @@
 int expect(int result, char *message);
 int expect_not(int result, char *message);
 
-int intEqual(int left, int right){
-	if (left == right) return -1;
-	return 0;
-}
+int intEqual(int left, int right);
 
-int dblEqual(double left, double right){
-	if (left == right) return -1;
-	return 0;
-}
+int dblEqual(double left, double right);
